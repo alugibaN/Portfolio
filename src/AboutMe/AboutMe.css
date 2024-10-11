@@ -1,0 +1,55 @@
+.main{
+  background-color: #171616;
+  height:1000px;
+  font-family: 'Roboto Light';
+}
+.about_me{
+max-width: 80vw;
+background-color: white;
+margin: 0 auto;
+padding: 0;
+display: flex;
+position: relative;
+}
+.title{
+color:#C7C7C7
+  /* opacity: 0.5; */
+}
+.first-column{
+width: 50vw;
+border-right:#171616 1px solid;
+margin: 0;
+padding: 100px 100px;
+display: flex;
+flex-direction: column;
+gap:50px
+}
+.second-column{
+  width:50vw;
+  border-left: #171616 1px solid;
+  margin: 0;
+  padding: 100px 100px;
+  display: flex;
+flex-direction: column;
+  gap:50px
+
+}
+.li{
+  list-style-type:none
+}
+.span{
+  letter-spacing:-2px;
+  margin-right: 10px;
+}
+.avatar{
+  width:150px;
+  height: 150px;
+  border-radius: 100%;
+}
+.svg-icon{
+  z-index: 999;
+  opacity: 0.2;
+  position: absolute;
+  bottom: -100px;
+  left: -100px;
+}
