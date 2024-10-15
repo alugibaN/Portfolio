@@ -4,9 +4,11 @@ import "../utils/photo/avatar.jpg";
 function AboutMe() {
   return (
     <main className="main">
+              <div className='line'/>
+
       <div className="about_me">
         <ul className="first-column">
-          <li className="li">
+          <li className="li-avatar">
             <img
               className="avatar"
               src={require("../utils/photo/avatar.jpg")}
@@ -18,14 +20,14 @@ function AboutMe() {
               <span className="span">&mdash;&mdash;&mdash;</span>
               ABOUT
             </h3>
-            <p> Я Набигула живу город Салехард,</p>
+            <p className='subtitle'> Я Набигула живу город Салехард,</p>
           </li>
           <li className="li">
             <h3 className="title">
               <span className="span">&mdash;&mdash;&mdash;</span>
               EXPERIRNCE
             </h3>
-            <p>I'm ...</p>
+            <p className='subtitle'> I'm ...</p>
           </li>
         </ul>
 
@@ -35,7 +37,7 @@ function AboutMe() {
               <span className="span">&mdash;&mdash;&mdash;</span>
               CLIENTS (PAST AND PRESENT)
             </h3>
-            <p>
+            <p className='subtitle'>
               Whirpool, Fendi, Diesel, TIM, Piaggio, Elica, Molteni&C, Roy
               Roger's, Costume National, San Carlo, ... ("Это варнье, но пока
               еще...")
@@ -46,8 +48,16 @@ function AboutMe() {
               <span className="span">&mdash;&mdash;&mdash;</span>
               SKILLS
             </h3>
-            <p>
-              JavaScript, React.js, Node.js, Gulp, Git, Html5, Sass, Responsive
+            <p className='subtitle'> JavaScript, React.js, Node.js, Gulp, Git, Html5, Sass, Responsive
+              design,
+            </p>
+          </li>
+          <li className="li">
+            <h3 className="title">
+              <span className="span">&mdash;&mdash;&mdash;</span>
+              PERFOMANCE
+            </h3>
+            <p className='subtitle'> JavaScript, React.js, Node.js, Gulp, Git, Html5, Sass, Responsive
               design,
             </p>
           </li>
