@@ -1,0 +1,43 @@
+.works {
+  min-height: 95vh;
+  display: flex;
+  position: relative;
+  overflow: hidden;
+
+}
+.product {
+  background-image: linear-gradient(-30deg, #7C1DB8, #4F48FA);
+  width: 50vw;
+}
+
+.description {
+  width: 50vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+}
+
+.big-p {
+  font-family: "Roboto Black";
+  font-size: 80vw;
+  margin: 0;
+  position: absolute;
+  opacity: 0.2;
+}
+.burger{
+  width: 60%;
+  /* height: 50%; */
+}
+.title-works{
+  font-family: 'Roboto Bold';
+  letter-spacing: 1px;
+  font-size: 16px;
+}
+.subtitle-works{
+  font-family: 'Roboto Thin';
+  font-size:calc(10px+0.1em);
+}
+.text{
+  width: 80%;
+}

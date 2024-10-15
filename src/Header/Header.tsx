@@ -14,6 +14,7 @@ function Header() {
         <h1 className="about name">HALIKOV NABIGULA</h1>
         <h2 className="about jobe">FULSTACK DEVELOPER</h2>
         </div>
+        <div className='line'/>
       </header>
     </section>
   );
